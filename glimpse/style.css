@@ -1,0 +1,161 @@
+
+@media screen and (max-width:1000px) {  
+    #graph {
+        display: none;
+      }
+  }
+  @media screen and (max-width:1000px) {  
+      #description{
+        display: none;
+    }
+  }
+
+a:link { 
+    position: relative;
+    text-decoration: none; 
+    color: #F2601B;
+}
+a:visited { text-decoration: none; color: #F2601B;}
+a:hover { text-decoration: none; color: #a53400;}
+a:active { text-decoration: none; color: #ae3700;}
+
+#login_errorMsg{
+    display:none;
+    position: absolute;
+}
+
+#line1 {
+    position: fixed;
+    top: 2%;
+    left: 0%;
+    width: 100%;
+}
+#line2 {
+    position: fixed;
+    top: 2%;
+    left: 0%;
+    width: 95%;
+}
+#line3 {
+    position: fixed;
+    bottom: 10%;
+    left: 0%;
+    width: 100%;
+}
+#line4 {
+    position: fixed;
+    bottom: 12%;
+    left: 6%;
+    width: 100%;
+}
+
+#graph{
+    position: fixed; 
+    bottom: 0px; 
+    right: 0px;
+    width: 660px;
+    height: auto;
+}
+
+body{
+    background: #253057;
+    font-family: 'Roboto';
+    font-style: normal; 
+}
+
+#loginButton{
+    background-color: #F2601B;
+    border-color: #F2601B;
+    position: relative;
+}
+#resetButton{
+    background-color: #F2601B;
+    border-color: #F2601B;
+    position: relative;
+}
+
+.input-group-prepend span{
+    width: auto;
+    height: 43px;
+    background-color: #ffffff;
+    color: #F2601B;
+    border:0 !important;
+    }
+
+#description{
+    position: fixed;
+    text-align: center;
+    right: 10%;
+    top: 13%;
+}
+
+#forms{
+   height: 300px;
+}
+
+#labels{
+    color: #DFE1E5;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+#forgotPasswordLink{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #F2601B;
+}
+
+#signIn{
+    color: #FFFFFF;
+}
+
+#backLogin{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #F2601B;
+}
+
+#emailReset{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #696969;
+}
+
+#email{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #696969;
+}
+
+#password{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #696969;
+}
+
+#footer{
+    font-weight: 400;
+    line-height: 24px;
+    color: #DFE1E5;
+    font-size:12px
+}
+#build{
+    font-size: 12px;
+    color: #DFE1E5;
+}
+
+#orangeLabel{
+    color: #F2601B;
+}
+
+#whiteLabel{
+    color: #DFE1E5;
+}
