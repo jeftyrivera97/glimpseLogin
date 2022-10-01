@@ -1,5 +1,5 @@
 
-@media screen and (max-width:1000px) {  
+@media screen and (max-width:1192px) {  
     #graph {
         display: none;
       }
@@ -53,13 +53,13 @@ a:active { text-decoration: none; color: #ae3700;}
     position: fixed; 
     bottom: 0px; 
     right: 0px;
-    width: 660px;
-    height: auto;
+    width: 640px;
+    height: 440px;
 }
 
 body{
     background: #253057;
-    font-family: 'Roboto';
+    font-family: 'Roboto', 'Sans-Serif';
     font-style: normal; 
 }
 
@@ -79,10 +79,12 @@ body{
     height: 43px;
     background-color: #ffffff;
     color: #F2601B;
-    border:0 !important;
+    border: 2px solid #ffffff;
+    padding: 10px;
     }
 
 #description{
+    font-size:large;
     position: fixed;
     text-align: center;
     right: 10%;
@@ -147,9 +149,10 @@ body{
     color: #DFE1E5;
     font-size:12px
 }
+
 #build{
     font-size: 12px;
-    color: #DFE1E5;
+    color: #4e5056;
 }
 
 #orangeLabel{
@@ -159,3 +162,29 @@ body{
 #whiteLabel{
     color: #DFE1E5;
 }
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    padding: 10px;
+    background: white;
+    color: #F2601B;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    color: white;
+  }
+  
+  .input-field:focus {
+    border: 2px solid rgb(0, 0, 0);
+  }
