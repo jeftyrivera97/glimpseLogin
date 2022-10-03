@@ -10,6 +10,12 @@
     }
   }
 
+  body{
+    background: #253057;
+    font-family: 'Roboto', 'Sans-Serif';
+    font-style: normal; 
+}
+
 a:link { 
     position: relative;
     text-decoration: none; 
@@ -55,12 +61,6 @@ a:active { text-decoration: none; color: #ae3700;}
     right: 0px;
     width: 640px;
     height: 440px;
-}
-
-body{
-    background: #253057;
-    font-family: 'Roboto', 'Sans-Serif';
-    font-style: normal; 
 }
 
 #loginButton{
